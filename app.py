@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import spacy
 from spacy import displacy
-import en_core_web_sm
+import en_core_web_md
 nlp = spacy.load('en_core_web_md')
 
 app = Flask(__name__)
