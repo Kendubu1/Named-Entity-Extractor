@@ -5,7 +5,6 @@ chardet==3.0.4
 click==7.1.2
 cymem==2.0.3
 en==0.0.1
-en-core-web-md==2.3.1
 Flask==1.1.2
 idna==2.10
 itsdangerous==1.1.0
