@@ -26,8 +26,7 @@ gunicorn --bind=0.0.0.0 --timeout 600 app:app
 | Files             |  Content                                   |
 |----------------------|--------------------------------------------|
 | `requirements.txt`           | Added requirement.txt in order for Azure to build the app with Oryx since it looks for a requirements.txt to build all dependencies              |
-| `api.py -> app.py`       | Renamed to account for Azure Startup - Azure only looks for app.py or application.py with Flask during startup                       |
-| `app.py`               | Updated app.py with "nltk.download('popular')" to download nltk data & import ssl logic to disable SSL when running locally.
+
 
 
 # Named-Entity-Extractor
