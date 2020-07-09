@@ -8,7 +8,7 @@
 ...Commands...
 cd site/
 touch startup.sh
-vi startip.sh
+vi startup.sh
 
 ...SCRIPT...
 bash
