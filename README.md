@@ -11,7 +11,6 @@ touch startup.sh
 vi startup.sh
 
 ...SCRIPT...
-bash
 #!/bin/sh
 python -m spacy download en_core_web_md en
 gunicorn --bind=0.0.0.0 --timeout 600 app:app
